@@ -28,7 +28,7 @@ header{
     background-size:cover;
     background-position: center;
     position: relative;
-    background-attachment: fixed;
+    
 }
 .hero-text{
     font-family: 'Lato',sans-serif;
@@ -123,20 +123,6 @@ section{
 
 /*---Buttons---*/	
 
-.bt{
-    display: inline-block;
-    padding:10px 30px;
-    font-weight: 400;
-    text-decoration: none;
-    border-radius: 300px;
-    transition: background-color 0.2s,border 0.2s,color 0.3s;
-}
-.bt-full:link,
-.bt-full:visited{
-    border:2px solid #00004d;
-    color: #fff;
-    background-color:#0c0c69a6;
-}
 #home{
     display: none;
     position: fixed;
@@ -155,10 +141,7 @@ section{
 #home:hover {
     background-color: #000066;
 }
-.bt:hover,
-.bt:active{
-    background-color:#000066;
-}
+
 
 /*---Flip---*/	
   
