@@ -281,3 +281,30 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+
+
+/*---media queries---*/
+
+@media (max-width:480px){
+
+header {background-image: linear-gradient(rgb(0 0 0 / 55%),rgb(0 0 0 / 80%)) , url(./02.jpg);background-size: cover;background-position: center;position: relative;}
+h2{font-size: 140%;}
+.sad{height: 1100px;}
+.happy{height: 1100px;}
+section{height: 570px;}
+.container { display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 5% 0%;}
+.flip-one, .flip-second, .flip-third, .flip-one1, .flip-second1, .flip-third1 {margin-bottom: 15px;}
+.last p {opacity: 1;margin-top: 15%;font-family: 'lato' , sans-serif;word-spacing: 5px;font-size: 20px;font-weight: 300;font-style: italic;padding-left: 0px; padding-top: 0%;}
+.last{flex-direction: column;}
+.motherimg{height: 200px; width: 300px;}
+.name{margin-right: 0px;}
+.hero-text {
+    font-family: 'Lato',sans-serif;
+    font-weight: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%);
+}
+}
